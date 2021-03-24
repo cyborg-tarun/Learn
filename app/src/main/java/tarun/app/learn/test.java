@@ -44,7 +44,7 @@ public class test extends AppCompatActivity {
    // private DatabaseReference mDatabaseRef;
     private StorageReference storageReference;
 
-    //bete moj kerdi
+
 
     LinearLayout options0;
     LinearLayout options1;
