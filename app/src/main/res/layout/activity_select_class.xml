@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectClass">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="100dp"
+        android:src="@drawable/select_class_back"
+        android:id="@+id/select_image"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/select_class_8"
+        android:fontFamily="@font/r_extrabold"
+        android:text="Help us to find your class"
+       android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/select_help"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:background="@drawable/select_class_num_back"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="200dp"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/r_extrabold"
+        android:textColor="@color/colorPrimary"
+        android:text="7"
+        android:textSize="40dp"
+        android:id="@+id/select_class_7"
+
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:background="@drawable/select_class_num_back"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200dp"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/r_extrabold"
+        android:textColor="@color/colorPrimary"
+        android:text="8"
+        android:textSize="40dp"
+        android:id="@+id/select_class_8"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:background="@drawable/select_class_num_back"
+        android:layout_marginBottom="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/r_extrabold"
+        android:textColor="@color/colorPrimary"
+        android:text="9"
+        android:textSize="40dp"
+        android:id="@+id/select_class_9"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:background="@drawable/select_class_num_back"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/r_extrabold"
+        android:textColor="@color/colorPrimary"
+        android:text="10"
+        android:textSize="40dp"
+        android:id="@+id/select_class_10"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:background="@drawable/select_class_num_back"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/r_extrabold"
+        android:textColor="@color/colorPrimary"
+        android:text="11"
+        android:textSize="40dp"
+        android:id="@+id/select_class_11"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:background="@drawable/select_class_num_back"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/r_extrabold"
+        android:textColor="@color/colorPrimary"
+        android:text="12"
+        android:textSize="40dp"
+        android:id="@+id/select_class_12"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/r_extrabold"
+        android:layout_marginBottom="60dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Signout"
+        android:id="@+id/select_signOut"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>

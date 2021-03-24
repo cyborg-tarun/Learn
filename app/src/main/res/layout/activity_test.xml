@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Your Skills"
+        android:textSize="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/tys"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tys"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/timer"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tys">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stopClick"
+            >
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Practice Question 1 "
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_margin="15dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/pq1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="integate"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:id="@+id/q1"
+                android:layout_below="@+id/pq1"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/q1"
+                android:id="@+id/q1img"
+
+                />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/q1img"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:id="@+id/buttions0">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/choices00"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="20dp"
+                            android:layout_height="wrap_content"
+                            android:text="first"
+                            android:id="@+id/b001"
+                            />
+
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="20dp"
+                            android:layout_height="wrap_content"
+                            android:text="2x"
+                            android:id="@+id/b002"
+                            />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="20dp"
+                            android:layout_height="wrap_content"
+                            android:text="third"
+                            android:id="@+id/b003"
+                            />
+
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="20dp"
+                            android:layout_height="wrap_content"
+                            android:text="forth"
+                            android:id="@+id/b004"
+
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:visibility="visible"
+                    android:id="@+id/options0"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="corrrect Answer"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorAccent"
+                        android:id="@+id/remark001"
+                        android:layout_marginHorizontal="10dp"
+                        />
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Watch Video"
+                        android:layout_marginHorizontal="10dp"
+                        android:id="@+id/wv001"
+                        />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Skip"
+                        android:layout_marginHorizontal="10dp"
+                        android:id="@+id/s001"
+                        />
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buttions0"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Step1"
+                android:layout_margin="15dp"
+                android:id="@+id/step01"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step01"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:id="@+id/buttions1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/choices01"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="20dp"
+                            android:layout_height="wrap_content"
+                            android:text="X"
+                            android:id="@+id/b011"
+                            />
+
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="20dp"
+                            android:layout_height="wrap_content"
+                            android:text="second"
+                            android:id="@+id/b012"
+                            />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="20dp"
+                            android:layout_height="wrap_content"
+                            android:text="third"
+                            android:id="@+id/b013"
+                            />
+
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="20dp"
+                            android:layout_height="wrap_content"
+                            android:text="forth"
+                            android:id="@+id/b014"
+
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:visibility="visible"
+                    android:id="@+id/options1"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="corrrect Answer"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorAccent"
+                        android:id="@+id/remark011"
+                        android:layout_marginHorizontal="10dp"
+                        />
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Watch Video"
+                        android:layout_marginHorizontal="10dp"
+                        android:id="@+id/wv011"
+                        />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Skip"
+                        android:layout_marginHorizontal="10dp"
+                        android:id="@+id/s011"
+                        />
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buttions1"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Step2"
+                android:layout_margin="15dp"
+                android:id="@+id/step02"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step02"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:id="@+id/buttions2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/choices02"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="20dp"
+                            android:layout_height="wrap_content"
+                            android:text="first"
+                            android:id="@+id/b021"
+                            />
+
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="20dp"
+                            android:layout_height="wrap_content"
+                            android:text="second"
+                            android:id="@+id/b022"
+                            />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="20dp"
+                            android:layout_height="wrap_content"
+                            android:text="third"
+                            android:id="@+id/b023"
+                            />
+
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="20dp"
+                            android:layout_height="wrap_content"
+                            android:text="Hence Proved"
+                            android:id="@+id/b024"
+
+                            />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:visibility="visible"
+                    android:id="@+id/options2"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="corrrect Answer"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorAccent"
+                        android:layout_marginHorizontal="10dp"
+                        android:id="@+id/remark021"
+                        />
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Watch Video"
+                        android:layout_marginHorizontal="10dp"
+                        android:id="@+id/wv021"
+                        />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Skip"
+                        android:layout_marginHorizontal="10dp"
+                        android:id="@+id/s021"
+                        />
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thank you for taking test"
+                android:textSize="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_below="@+id/buttions2"
+                android:id="@+id/tyftt"
+
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

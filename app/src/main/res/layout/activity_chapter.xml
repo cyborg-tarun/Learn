@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chapterActivity"
+    android:background="@drawable/home_backgroud">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorAccent"
+        android:id="@+id/chap_toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/sanjay_sir_base"
+        android:id="@+id/chap_teacher_base"
+        android:layout_below="@+id/chap_toolbar"
+        android:layout_marginStart="30dp"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/sanjay_sir"
+        android:id="@+id/chap_teacher"
+        android:layout_alignLeft="@+id/chap_teacher_base"
+        android:layout_alignTop="@+id/chap_teacher_base"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginVertical="25dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Teacher"
+        android:fontFamily="@font/r_extrabold"
+        android:textColor="@android:color/white"
+        android:layout_toEndOf="@+id/chap_teacher"
+        android:layout_below="@+id/chap_toolbar"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sanjay Singh"
+        android:fontFamily="@font/r_extrabold"
+        android:textColor="@android:color/white"
+        android:layout_toEndOf="@+id/chap_teacher"
+        android:layout_below="@+id/chap_toolbar"
+        android:layout_marginTop="60dp"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12 year exp."
+        android:id="@+id/chap_teacher_exp"
+        android:fontFamily="@font/r_extrabold"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/chap_teacher_base"
+       android:layout_alignStart="@+id/chap_teacher_base"
+        android:layout_marginStart="35dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/r_extrabold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAllCaps="true"
+        android:text="mathematics"
+        android:layout_below="@+id/chap_teacher_exp"
+        android:textSize="40dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/chap_subject_name"
+        />
+
+    <!--
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chap_teacher_exp"
+        android:id="@+id/chap_fragment_container"
+        />
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_below="@+id/chap_subject_name"
+        android:layout_marginTop="5dp"
+        android:id="@+id/chap_horizontal_view"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:background="@drawable/round_button_grey"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="chapter-1"
+                android:id="@+id/chap_chapter_1"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:background="@drawable/round_button_grey"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="chapter-2"
+                android:id="@+id/chap_chapter_2"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:background="@drawable/round_button_grey"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="chapter-3"
+                android:id="@+id/chap_chapter_3"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:background="@drawable/round_button_grey"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="chapter-4"
+                android:id="@+id/chap_chapter_4"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:background="@drawable/round_button_grey"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="chapter-5"
+                android:id="@+id/chap_chapter_5"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:background="@drawable/round_button_grey"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="chapter-6"
+                android:id="@+id/chap_chapter_6"
+                />
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chap_horizontal_view"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line"/>
+
+
+            <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              >
+
+
+              <ImageView
+                  android:layout_width="80dp"
+                  android:layout_height="80dp"
+                  android:src="@drawable/chap_1icon"
+                  />
+
+              <RelativeLayout
+                  android:layout_width="200dp"
+                  android:layout_height="80dp">
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Number"
+                  android:textColor="@color/colorPrimaryDark"
+                  android:fontFamily="@font/r_extrabold"
+                  android:textSize="20dp"
+                 android:layout_centerHorizontal="true"
+                  android:layout_centerVertical="true"
+                  />
+              </RelativeLayout>
+
+              <RelativeLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content">
+
+              <ImageView
+                  android:layout_width="40dp"
+                  android:layout_height="80dp"
+                  android:src="@drawable/play_icon"
+                  android:layout_alignParentEnd="true"
+                  />
+              </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+
+    <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/chap_2icon"
+            />
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="80dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number Line"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/r_extrabold"
+                android:textSize="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="80dp"
+                android:src="@drawable/play_icon"
+                android:layout_alignParentEnd="true"
+                />
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/chap_3icon"
+            />
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="80dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Natural Number"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/r_extrabold"
+                android:textSize="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="80dp"
+                android:src="@drawable/play_icon"
+                android:layout_alignParentEnd="true"
+                />
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/chap_4icon"
+            />
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="80dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Whole Number"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/r_extrabold"
+                android:textSize="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="80dp"
+                android:src="@drawable/play_icon"
+                android:layout_alignParentEnd="true"
+                />
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/chap_1icon"
+            />
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="80dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NUMBERS"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/r_extrabold"
+                android:textSize="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="80dp"
+                android:src="@drawable/play_icon"
+                android:layout_alignParentEnd="true"
+                />
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/chap_1icon"
+            />
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="80dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NUMBERS"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/r_extrabold"
+                android:textSize="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="80dp"
+                android:src="@drawable/play_icon"
+                android:layout_alignParentEnd="true"
+                />
+        </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+    -->
+
+</RelativeLayout>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".subjects.maths.ninth.ninthMaths"
+    android:background="@drawable/home_backgroud">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorAccent"
+        android:id="@+id/chap_toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/sanjay_sir_base"
+        android:id="@+id/chap_teacher_base"
+        android:layout_below="@+id/chap_toolbar"
+        android:layout_marginStart="30dp"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/sanjay_sir"
+        android:id="@+id/chap_teacher"
+        android:layout_alignLeft="@+id/chap_teacher_base"
+        android:layout_alignTop="@+id/chap_teacher_base"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginVertical="25dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Teacher"
+        android:fontFamily="@font/r_extrabold"
+        android:textColor="@android:color/white"
+        android:layout_toEndOf="@+id/chap_teacher"
+        android:layout_below="@+id/chap_toolbar"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chap_toolbar"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/chap_teacher"
+        android:fontFamily="@font/r_extrabold"
+        android:text="Sanjay Singh"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12 year exp."
+        android:id="@+id/chap_teacher_exp"
+        android:fontFamily="@font/r_extrabold"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/chap_teacher_base"
+        android:layout_alignStart="@+id/chap_teacher_base"
+        android:layout_marginStart="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/r_extrabold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAllCaps="true"
+        android:text="mathematics"
+        android:layout_below="@+id/chap_teacher_exp"
+        android:textSize="40dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/chap_subject_name"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/r_extrabold"
+        android:textAllCaps="true"
+        android:text="15 Chapters"
+        android:layout_below="@+id/chap_subject_name"
+        android:textSize="20dp"
+
+        android:id="@+id/chap_numbers"
+        />
+
+
+
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_below="@+id/chap_numbers"
+        android:layout_marginTop="5dp"
+        android:id="@+id/chap_horizontal_view"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@drawable/round_button_grey"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Number Systems"
+                android:id="@+id/chap_chapter_1"
+                android:paddingHorizontal="10dp"
+
+
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@drawable/round_button_grey"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Polynomials"
+                android:id="@+id/chap_chapter_2"
+                android:paddingHorizontal="10dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@drawable/round_button_grey"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Coordinate Geometry"
+                android:id="@+id/chap_chapter_3"
+                android:paddingHorizontal="10dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@drawable/round_button_grey"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Linear Equations in Two Variables"
+                android:id="@+id/chap_chapter_4"
+                android:paddingHorizontal="10dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@drawable/round_button_grey"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Introduction to Euclids Geometry"
+                android:id="@+id/chap_chapter_5"
+                android:paddingHorizontal="10dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@drawable/round_button_grey"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Lines and Angles"
+                android:id="@+id/chap_chapter_6"
+                android:paddingHorizontal="10dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@drawable/round_button_grey"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Lines and Angles"
+                android:id="@+id/chap_chapter_7"
+                android:paddingHorizontal="10dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@drawable/round_button_grey"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Lines and Angles"
+                android:id="@+id/chap_chapter_8"
+                android:paddingHorizontal="10dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@drawable/round_button_grey"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Lines and Angles"
+                android:id="@+id/chap_chapter_9"
+                android:paddingHorizontal="10dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@drawable/round_button_grey"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Lines and Angles"
+                android:id="@+id/chap_chapter_10"
+                android:paddingHorizontal="10dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@drawable/round_button_grey"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Lines and Angles"
+                android:id="@+id/chap_chapter_11"
+                android:paddingHorizontal="10dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@drawable/round_button_grey"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Lines and Angles"
+                android:id="@+id/chap_chapter_12"
+                android:paddingHorizontal="10dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@drawable/round_button_grey"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Lines and Angles"
+                android:id="@+id/chap_chapter_13"
+                android:paddingHorizontal="10dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@drawable/round_button_grey"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Lines and Angles"
+                android:id="@+id/chap_chapter_14"
+                android:paddingHorizontal="10dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@drawable/round_button_grey"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Lines and Angles"
+                android:id="@+id/chap_chapter_15"
+                android:paddingHorizontal="10dp"
+                />
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chap_horizontal_view"
+        android:layout_marginTop="10dp"
+        android:id="@+id/chap_fragment_container"
+        />
+
+
+<!--
+
+
+-->
+
+</RelativeLayout>

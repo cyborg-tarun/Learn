@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tarun.app.learn">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Learnizy"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".test"
+            android:parentActivityName=".homeActivity"
+            android:screenOrientation="portrait"
+            >
+
+
+        </activity>
+        <activity android:name=".videoPlayer" />
+        <activity
+            android:name=".subjects.maths.ninth.ninthMaths"
+            android:parentActivityName=".homeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chapterActivity"
+            android:parentActivityName=".homeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".homeActivity"
+            android:parentActivityName=".SelectClass"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".otpActivity"
+            android:parentActivityName=".registerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelectClass"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".registerActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".loginActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

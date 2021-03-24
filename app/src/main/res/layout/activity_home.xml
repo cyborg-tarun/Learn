@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeActivity"
+    android:background="@drawable/home_backgroud"
+    >
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/search_icon"
+        android:layout_marginTop="25dp"
+        android:id="@+id/home_search"
+        android:layout_toStartOf="@+id/home_notification"
+        android:layout_marginRight="30dp"
+        />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/notificaton_base"
+        android:layout_alignParentEnd="true"
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/notification_icon"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/home_notification"
+        android:layout_marginRight="30dp"
+        />
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/londa"
+        android:layout_below="@+id/home_notification"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/home_londa"
+        />
+   <ImageView
+       android:layout_width="65dp"
+       android:layout_height="65dp"
+       android:src="@drawable/drawer_icon"
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="30dp"
+       android:id="@+id/home_drawer_image"
+       />
+
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/home_drawer_layout"
+        android:layout_marginTop="50dp"
+        >
+
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/home_navigation_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:menu="@menu/bottom_navigation_menu" />
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello,"
+        android:fontFamily="@font/r_extrabold"
+        android:textColor="@android:color/white"
+        android:layout_toEndOf="@+id/home_drawer_image"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:id="@+id/home_hello"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:fontFamily="@font/r_extrabold"
+        android:textColor="@android:color/white"
+        android:id="@+id/home_name"
+        android:layout_marginTop="70dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/home_bottom_navigation"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/home_fragment_container"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_navigation_background"
+        android:elevation="50dp"
+        app:itemIconSize="28dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginHorizontal="10dp"
+        app:menu="@menu/bottom_navigation_menu"
+        android:id="@+id/home_bottom_navigation"
+
+        />
+
+
+
+
+
+
+</RelativeLayout>

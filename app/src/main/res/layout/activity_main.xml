@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/main_background"
+    >
+
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_borders"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="160dp"
+        android:text="Let's Learn"
+        android:paddingRight="60dp"
+        android:paddingLeft="60dp"
+        android:fontFamily="@font/r_extrabold"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:id="@+id/main_letslearn_btn"/>
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:text="   Register   "
+        android:paddingRight="60dp"
+        android:paddingLeft="60dp"
+        android:fontFamily="@font/r_extrabold"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:id="@+id/main_register_btn"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/r_extrabold"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:text="Already a user?  "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16dp"
+        android:id="@+id/already_user"
+        />
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/r_extrabold"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:text="Login"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"
+        android:layout_toEndOf="@+id/already_user"
+        android:id="@+id/main_login_btn"/>
+
+
+
+</RelativeLayout>

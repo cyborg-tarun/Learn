@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "306303304113",
+    "firebase_url": "https://learn-74ed1.firebaseio.com",
+    "project_id": "learn-74ed1",
+    "storage_bucket": "learn-74ed1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306303304113:android:df73abeefd1da9a18a7d90",
+        "android_client_info": {
+          "package_name": "tarun.app.learn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306303304113-0e52sdmdlbe4bmqi1pl3snhe5f17628a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tarun.app.learn",
+            "certificate_hash": "7d5effcc6c698904d237793cee5dd3ce487489a8"
+          }
+        },
+        {
+          "client_id": "306303304113-4l4uuesk19bmk8rfigvje5njsv64rubo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY7c5MiOX-Hi6OMdJf2BcsBpYGb9UQc4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306303304113-4l4uuesk19bmk8rfigvje5njsv64rubo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".subjects.maths.ninth.chapOne.nineChapOne">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    >
+
+
+                        <!-- change  text here-->
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:maxWidth="260dp"
+                        android:layout_height="wrap_content"
+                        android:text="hello ji ki haal chal"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:fontFamily="@font/r_extrabold"
+                        android:textSize="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    >
+
+                    <!-- please increace the topic number -->
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/play_icon"
+                            android:layout_margin="10dp"
+                            android:layout_alignParentEnd="true"
+                            android:id="@+id/chap1_topic1"
+
+                            />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                   >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:maxWidth="250dp"
+                        android:layout_height="wrap_content"
+                        android:text="sdfdsfdsfssdf"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:fontFamily="@font/r_extrabold"
+                        android:textSize="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                   >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/play_icon"
+                        android:layout_margin="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/chap1_topic2"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:maxWidth="250dp"
+                        android:layout_height="wrap_content"
+                        android:text="hello ji ki hasadfasdfasdfasasfal chal"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:fontFamily="@font/r_extrabold"
+                        android:textSize="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/play_icon"
+                        android:layout_margin="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/chap1_topic2"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:maxWidth="250dp"
+                        android:layout_height="wrap_content"
+                        android:text="hello ji ki hasadfasdfasdfasasfal chal"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:fontFamily="@font/r_extrabold"
+                        android:textSize="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/play_icon"
+                        android:layout_margin="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/chap1_topic2"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:maxWidth="250dp"
+                        android:layout_height="wrap_content"
+                        android:text="hello ji ki hasadfasdfasdfasasfal chal"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:fontFamily="@font/r_extrabold"
+                        android:textSize="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/play_icon"
+                        android:layout_margin="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/chap1_topic2"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:maxWidth="250dp"
+                        android:layout_height="wrap_content"
+                        android:text="hello ji ki hasadfasdfasdfasasfal chal"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:fontFamily="@font/r_extrabold"
+                        android:textSize="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/play_icon"
+                        android:layout_margin="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/chap1_topic2"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:maxWidth="250dp"
+                        android:layout_height="wrap_content"
+                        android:text="hello ji ki hasadfasdfasdfasasfal chal"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:fontFamily="@font/r_extrabold"
+                        android:textSize="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/play_icon"
+                        android:layout_margin="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/chap1_topic2"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:maxWidth="250dp"
+                        android:layout_height="wrap_content"
+                        android:text="hello ji ki hasadfasdfasdfasasfal chal"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:fontFamily="@font/r_extrabold"
+                        android:textSize="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/play_icon"
+                        android:layout_margin="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/chap1_topic2"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:maxWidth="250dp"
+                        android:layout_height="wrap_content"
+                        android:text="hello ji ki hasadfasdfasdfasasfal chal"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:fontFamily="@font/r_extrabold"
+                        android:textSize="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/play_icon"
+                        android:layout_margin="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/chap1_topic2"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:maxWidth="250dp"
+                        android:layout_height="wrap_content"
+                        android:text="hello ji ki hasadfasdfasdfasasfal chal"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:fontFamily="@font/r_extrabold"
+                        android:textSize="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/play_icon"
+                        android:layout_margin="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/chap1_topic2"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:maxWidth="250dp"
+                        android:layout_height="wrap_content"
+                        android:text="hello ji ki hasadfasdfasdfasasfal chal"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:fontFamily="@font/r_extrabold"
+                        android:textSize="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/play_icon"
+                        android:layout_margin="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/chap1_topic2"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:maxWidth="250dp"
+                        android:layout_height="wrap_content"
+                        android:text="hello ji ki hasadfasdfasdfasasfal chal"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:fontFamily="@font/r_extrabold"
+                        android:textSize="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/play_icon"
+                        android:layout_margin="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/chap1_topic2"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:maxWidth="250dp"
+                        android:layout_height="wrap_content"
+                        android:text="hello ji ki hasadfasdfasdfasasfal chal"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:fontFamily="@font/r_extrabold"
+                        android:textSize="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/play_icon"
+                        android:layout_margin="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/chap1_topic2"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:maxWidth="250dp"
+                        android:layout_height="wrap_content"
+                        android:text="hello ji ki hasadfasdfasdfasasfal chal"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:fontFamily="@font/r_extrabold"
+                        android:textSize="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/play_icon"
+                        android:layout_margin="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/chap1_topic2"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:maxWidth="250dp"
+                        android:layout_height="wrap_content"
+                        android:text="hello ji ki hasadfasdfasdfasasfal chal"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:fontFamily="@font/r_extrabold"
+                        android:textSize="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/play_icon"
+                        android:layout_margin="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/chap1_topic2"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
