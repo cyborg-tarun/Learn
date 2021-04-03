@@ -256,22 +256,10 @@ public class test extends AppCompatActivity {
     private void Question1() {
         choices00.setVisibility(View.VISIBLE);
 
+        incorrectAns(b001,false);
+        incorrectAns(b003,false);
+        incorrectAns(b004,false);
 
-        b001.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                aBoolean=false;
-                player.start();
-                b002.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#B514BE36")));
-                b001.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#ff0000")));
-                b003.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#ff0000")));
-                b004.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#ff0000")));
-                remark001.setText("Incorrect Answer");
-                options0.setVisibility(View.VISIBLE);
-
-                choices00.setClickable(false);
-            }
-        });
 
         b002.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -289,38 +277,6 @@ public class test extends AppCompatActivity {
 
                 choices00.setClickable(false);
 
-            }
-        });
-
-        b003.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                aBoolean=false;
-                player.start();
-                b002.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#B514BE36")));
-                b001.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#ff0000")));
-                b003.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#ff0000")));
-                b004.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#ff0000")));
-                remark001.setText("Incorrect Answer");
-                options0.setVisibility(View.VISIBLE);
-
-                choices00.setClickable(false);
-            }
-        });
-
-        b004.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                aBoolean=false;
-                player.start();
-                b002.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#B514BE36")));
-                b001.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#ff0000")));
-                b003.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#ff0000")));
-                b004.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#ff0000")));
-                remark001.setText("Incorrect Answer");
-                options0.setVisibility(View.VISIBLE);
-
-                choices00.setClickable(false);
             }
         });
 
@@ -515,6 +471,44 @@ public class test extends AppCompatActivity {
                 startActivity(new Intent(test.this,videoPlayer.class));
             }
         });
+
+
+
+    }
+
+    private void incorrectAns(Button x1, final boolean y) {
+
+
+        x1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                if (y == false){
+                    aBoolean=false;
+                    player.start();
+                    remark001.setText("Incorrect Answer");
+
+                }
+                else {
+
+                    aBoolean=true;
+                    remark001.setText("Correct Answer");
+                    s001.setVisibility(View.VISIBLE);
+
+                }
+
+                b002.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#B514BE36")));
+                b001.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#ff0000")));
+                b003.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#ff0000")));
+                b004.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#ff0000")));
+
+                options0.setVisibility(View.VISIBLE);
+                choices00.setClickable(false);
+
+            }
+        });
+
 
 
 
